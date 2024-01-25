@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resource/GetBackButton.png</file>
+        <file>resource/GetOutGameButton.png</file>
+        <file>resource/GiveGameButton.png</file>
+        <file>resource/NewGameButton.png</file>
+        <file>resource/QLinkChineseTitle.png</file>
+        <file>resource/QLinkEnglishTitle.png</file>
+        <file>resource/SetUpBackground.png</file>
+    </qresource>
+</RCC>

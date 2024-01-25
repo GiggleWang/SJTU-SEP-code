@@ -1,0 +1,77 @@
+cmd> a  
+It's input mode now. Quit with a line with a single dot(.)
+#include <iostream>
+
+int main()
+{
+}
+.
+cmd> 1,$n
+1	#include <iostream>
+2	
+3	int main()
+4	{
+5	}
+cmd> 3
+int main()
+cmd> i
+It's input mode now. Quit with a line with a single dot(.)
+using namespace std;
+
+#includ
+.
+cmd> 1,$n
+1	#include <iostream>
+2	
+3	using namespace std;
+4	
+5	#includ
+6	int main()
+7	{
+8	}
+cmd> 4,5d
+cmd> 1,$n
+1	#include <iostream>
+2	
+3	using namespace std;
+4	int main()
+5	{
+6	}
+cmd> 1,3c
+? Bad/Unknown command
+cmd> 1,5n
+1	#include <iostream>
+2	
+3	using namespace std;
+4	int main()
+5	{
+cmd> a
+It's input mode now. Quit with a line with a single dot(.)
+    cout << "Hello my editor" << endl;
+
+    return 0;
+.
+cmd> 1,$n
+1	#include <iostream>
+2	
+3	using namespace std;
+4	int main()
+5	{
+6	    cout << "Hello my editor" << endl;
+7	
+8	    return 0;
+9	}
+cmd> write
+? Bad/Unknown command
+cmd> 1,999n
+? Line number out of range
+cmd> 9,1n
+? Number range error
+cmd> 4,2d
+? Delete range error
+cmd> 2019
+? Line number out of range
+cmd> w hello.cc
+111 byte(s) written
+cmd> Q
+

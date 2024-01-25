@@ -1,0 +1,63 @@
+class Editor {
+private:
+  Buffer *buffer;
+  int currentLine=0;
+
+  void dispatchCmd(const string &cmd);
+  void cmdAppend();
+  void cmdInsert();
+  void 
+  cmdDelete(int start, int end);
+  void cmdNumber(int start, int end);
+  void cmdWrite(const string &filename);
+  void cmdNull(int line);
+  void cmdAll();
+public:
+  Editor();
+  ~Editor();
+  void run();
+};
+
+
+
+
+
+class Buffer {
+private:
+    int currentLineNum;
+public:
+    Buffer();
+    ~Buffer();
+    edlist* list;
+
+    void writeToFile(const string &filename) const;
+
+    const string &moveToLine(int idx) const;
+
+    void showLines(int from, int to) const;
+
+    void deleteLines(int from, int to);//删除从from行到to行
+    void insertLine(const string &text,int a);//在第a行之前插入text（即插入后的内容为第a行）
+    void appendLine(const string &text,int a);
+};
+
+
+
+
+class edlist
+{
+public:
+    void clear();
+
+    int length() const;
+    void insert(int i,const string &x);//在第i行之前插入x（即插入后的内容为第i行）
+    void remove(int i);//删除第i行
+    int search(const string &x);
+    string visit(int i);
+    void traverse()const;
+    edlist();
+    ~edlist(){};
+    node* head;
+    int currentLength;
+    node* move(int i)const;//转移到第i-1行
+};

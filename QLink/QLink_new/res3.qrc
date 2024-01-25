@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resource3/BoardNode.png</file>
+        <file>resource3/PlayBtn0001.jpg</file>
+        <file>resource3/PlayBtn0002.jpg</file>
+        <file>resource3/PlayBtn0003.jpg</file>
+        <file>resource3/PlayBtn0004.jpg</file>
+        <file>resource3/PlayBtn0005.jpg</file>
+        <file>resource3/PlayBtn0006.jpg</file>
+        <file>resource3/player.jpg</file>
+        <file>resource3/PlayCheckBtn0001.jpg</file>
+        <file>resource3/PlayCheckBtn0002.jpg</file>
+        <file>resource3/PlayCheckBtn0003.jpg</file>
+        <file>resource3/PlayCheckBtn0004.jpg</file>
+        <file>resource3/PlayCheckBtn0005.jpg</file>
+        <file>resource3/PlayCheckBtn0006.jpg</file>
+        <file>resource3/failImg.png</file>
+        <file>resource3/succeedImg.png</file>
+        <file>resource3/gameOverBtn.png</file>
+        <file>resource3/PlayBtn0007.jpg</file>
+        <file>resource3/PlayCheckBtn0007.jpg</file>
+        <file>resource3/gameContinueBtn.png</file>
+        <file>resource3/gameStopBtn.png</file>
+        <file>resource3/PlayBtn0008.jpg</file>
+        <file>resource3/PlayCheckBtn0008.jpg</file>
+        <file>resource3/PlayBtn0009.jpg</file>
+        <file>resource3/PlayCheckBtn0009.jpg</file>
+        <file>resource3/player1.jpg</file>
+        <file>resource3/player2.jpg</file>
+        <file>resource3/copyFile.png</file>
+    </qresource>
+</RCC>

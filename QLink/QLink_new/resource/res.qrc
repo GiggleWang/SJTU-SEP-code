@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>ChooseSceneTitle.png</file>
+        <file>PartnerModuleBtn.png</file>
+        <file>PlaySceneBackground.png</file>
+        <file>SingleModuleBtn.png</file>
+    </qresource>
+</RCC>
